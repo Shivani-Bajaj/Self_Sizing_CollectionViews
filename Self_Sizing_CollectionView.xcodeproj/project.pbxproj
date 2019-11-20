@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B52422F72385B0E60020B531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52422F62385B0E60020B531 /* AppDelegate.swift */; };
-		B52422F92385B0E60020B531 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52422F82385B0E60020B531 /* SceneDelegate.swift */; };
-		B52422FB2385B0E60020B531 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52422FA2385B0E60020B531 /* ContentView.swift */; };
 		B52422FD2385B0E80020B531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52422FC2385B0E80020B531 /* Assets.xcassets */; };
-		B52423002385B0E80020B531 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52422FF2385B0E80020B531 /* Preview Assets.xcassets */; };
 		B52423032385B0E80020B531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52423012385B0E80020B531 /* LaunchScreen.storyboard */; };
 		B524230E2385B0E80020B531 /* Self_Sizing_CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B524230D2385B0E80020B531 /* Self_Sizing_CollectionViewTests.swift */; };
 		B52423192385B0E80020B531 /* Self_Sizing_CollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52423182385B0E80020B531 /* Self_Sizing_CollectionViewUITests.swift */; };
+		B52423272385B2B60020B531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52423262385B2B60020B531 /* Main.storyboard */; };
+		B524232B2385B3790020B531 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B524232A2385B3790020B531 /* HomeViewController.swift */; };
+		B52423312385B3D50020B531 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B524232F2385B3D50020B531 /* CollectionTableViewCell.swift */; };
+		B52423322385B3D50020B531 /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B52423302385B3D50020B531 /* CollectionTableViewCell.xib */; };
+		B52423362385B53A0020B531 /* DynamicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52423342385B53A0020B531 /* DynamicCollectionViewCell.swift */; };
+		B52423372385B53A0020B531 /* DynamicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B52423352385B53A0020B531 /* DynamicCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +40,7 @@
 /* Begin PBXFileReference section */
 		B52422F32385B0E60020B531 /* Self_Sizing_CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Self_Sizing_CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52422F62385B0E60020B531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B52422F82385B0E60020B531 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B52422FA2385B0E60020B531 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B52422FC2385B0E80020B531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B52422FF2385B0E80020B531 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B52423022385B0E80020B531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B52423042385B0E80020B531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B52423092385B0E80020B531 /* Self_Sizing_CollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Self_Sizing_CollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +49,12 @@
 		B52423142385B0E80020B531 /* Self_Sizing_CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Self_Sizing_CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52423182385B0E80020B531 /* Self_Sizing_CollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self_Sizing_CollectionViewUITests.swift; sourceTree = "<group>"; };
 		B524231A2385B0E80020B531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B52423262385B2B60020B531 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B524232A2385B3790020B531 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B524232F2385B3D50020B531 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		B52423302385B3D50020B531 /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
+		B52423342385B53A0020B531 /* DynamicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCollectionViewCell.swift; sourceTree = "<group>"; };
+		B52423352385B53A0020B531 /* DynamicCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,23 +105,13 @@
 		B52422F52385B0E60020B531 /* Self_Sizing_CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				B524232C2385B3850020B531 /* Storyboards */,
+				B52423282385B34D0020B531 /* MVVM */,
 				B52422F62385B0E60020B531 /* AppDelegate.swift */,
-				B52422F82385B0E60020B531 /* SceneDelegate.swift */,
-				B52422FA2385B0E60020B531 /* ContentView.swift */,
 				B52422FC2385B0E80020B531 /* Assets.xcassets */,
-				B52423012385B0E80020B531 /* LaunchScreen.storyboard */,
 				B52423042385B0E80020B531 /* Info.plist */,
-				B52422FE2385B0E80020B531 /* Preview Content */,
 			);
 			path = Self_Sizing_CollectionView;
-			sourceTree = "<group>";
-		};
-		B52422FE2385B0E80020B531 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				B52422FF2385B0E80020B531 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		B524230C2385B0E80020B531 /* Self_Sizing_CollectionViewTests */ = {
@@ -134,6 +130,59 @@
 				B524231A2385B0E80020B531 /* Info.plist */,
 			);
 			path = Self_Sizing_CollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		B52423282385B34D0020B531 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				B524232D2385B3A90020B531 /* Views */,
+				B52423292385B3580020B531 /* ViewControllers */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		B52423292385B3580020B531 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B524232A2385B3790020B531 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B524232C2385B3850020B531 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B52423012385B0E80020B531 /* LaunchScreen.storyboard */,
+				B52423262385B2B60020B531 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B524232D2385B3A90020B531 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B52423332385B4B60020B531 /* CollectionViewCells */,
+				B524232E2385B3B60020B531 /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B524232E2385B3B60020B531 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B524232F2385B3D50020B531 /* CollectionTableViewCell.swift */,
+				B52423302385B3D50020B531 /* CollectionTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		B52423332385B4B60020B531 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B52423342385B53A0020B531 /* DynamicCollectionViewCell.swift */,
+				B52423352385B53A0020B531 /* DynamicCollectionViewCell.xib */,
+			);
+			path = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52423272385B2B60020B531 /* Main.storyboard in Resources */,
 				B52423032385B0E80020B531 /* LaunchScreen.storyboard in Resources */,
-				B52423002385B0E80020B531 /* Preview Assets.xcassets in Resources */,
 				B52422FD2385B0E80020B531 /* Assets.xcassets in Resources */,
+				B52423372385B53A0020B531 /* DynamicCollectionViewCell.xib in Resources */,
+				B52423322385B3D50020B531 /* CollectionTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +319,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B52422F72385B0E60020B531 /* AppDelegate.swift in Sources */,
-				B52422F92385B0E60020B531 /* SceneDelegate.swift in Sources */,
-				B52422FB2385B0E60020B531 /* ContentView.swift in Sources */,
+				B52423312385B3D50020B531 /* CollectionTableViewCell.swift in Sources */,
+				B52423362385B53A0020B531 /* DynamicCollectionViewCell.swift in Sources */,
+				B524232B2385B3790020B531 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Self_Sizing_CollectionView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Self_Sizing_CollectionView/\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Self_Sizing_CollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,7 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Self_Sizing_CollectionView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Self_Sizing_CollectionView/\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Self_Sizing_CollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
